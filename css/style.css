@@ -4,6 +4,17 @@ body {
 	font-weight: 300;
 }
 
+/*Catch all to prevent overflow*/
+img, embed, object, video {
+	max-width: 100%;
+}
+
+/*Make sure touch targets are easy to hit.*/
+nav, a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
+
 .text-muted {
 	color: #bcbbbb;
 	margin-top: 40px;
@@ -31,5 +42,5 @@ hr {
 	background-color: #bcbbbb;
 	border: none;
 	margin-bottom: 25px;
-	margin-top: 0px;
+	margin-top: 10px;
 }
