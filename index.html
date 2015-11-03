@@ -6,20 +6,20 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:100,400,300,700' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,300,700" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </head>
   <body>
 
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <img class="title-logo" src="https://placehold.it/100x100" alt="Logo">
+          <img class="title-logo" src="images/udacity_logo.png" alt="Logo" height="100" width="100">
         </div>
         <div class="col-md-6 text-right text-uppercase">
           <h1 class="title-super text-thin">Luis Santiago</h1>
-          <h4>Front-end ninja</h4>
+          <h4>Front-end master</h4>
         </div>
       </div>
 
@@ -31,7 +31,7 @@
 
       <div class="row">
         <div class="col-md-12">
-          <img class="img-responsive" src="https://placeimg.com/1140/350/tech" alt="Hero image.">
+          <img class="img-responsive" src="images/hero.jpg" alt="Hero image.">
         </div>
       </div>
 
@@ -41,40 +41,74 @@
         </div>
       </div>
 
+      <!-- TODO: add images from the actual projects once completed -->
       <div class="row text-center text-uppercase">
-
         <div class="col-md-4">
-          <img class="img-responsive" src="https://placeimg.com/554/300/tech" alt="Project 1" data-toggle="modal" data-target="#project1">
+          <img class="img-responsive" src="images/appify.jpg" alt="Project 1" data-toggle="modal" data-target="#project1">
           <h3>Appify</h3>
           <p class="text-lowercase"><a href="http://github.com/">http://github.com/udacity/Appify</a></p>
         </div>
 
         <div class="col-md-4">
-          <img class="img-responsive" src="https://placeimg.com/556/300/tech" alt="Project 2">
+          <img class="img-responsive" src="images/sunflower.jpg" alt="Project 2" data-toggle="modal" data-target="#project2">
           <h3>Sunflower</h3>
           <p class="text-lowercase"><a href="http://github.com/">http://github.com/udacity/Sunflower</a></p>
         </div>
-      
+
         <div class="col-md-4">
-          <img class="img-responsive" src="https://placeimg.com/555/300/tech" alt="Project 3">
+          <img class="img-responsive" src="images/bokeh.jpg" alt="Project 3" data-toggle="modal" data-target="#project3">
           <h3>Bokeh</h3>
           <p class="text-lowercase"><a href="http://github.com/">http://github.com/udacity/Bokeh</a></p>
         </div>
-
       </div>
     </div>
 
-     <!-- Modal -->
+     <!-- Modal for project 1-->
     <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title" id="myModalLabel">Appify modal page</h4>
           </div>
           <div class="modal-body">
             <img class="img-responsive" src="https://placeimg.com/555/300/tech" alt="Appify image">
               This was my first project in this class. I learned a lot about HTML and CSS.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for project 2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel-sunflower">Sunflower modal page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="https://placeimg.com/555/300/tech" alt="Appify image">
+              This is the description area for project 2.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for project 3-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel-bokeh">Bokeh modal page</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-responsive" src="https://placeimg.com/555/300/tech" alt="Appify image">
+              This is the description area for project 3.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

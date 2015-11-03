@@ -5,7 +5,7 @@ body {
 }
 
 .text-muted {
-	color: #BCBBBB;
+	color: #bcbbbb;
 	margin-top: 40px;
 }
 
@@ -21,9 +21,15 @@ body {
 	margin-top: 20px;
 }
 
+.modal-body {
+	font-size: 18px;
+	font-weight: 400;
+}
+
 hr {
 	height: 4px;
-	background-color: #BCBBBB;
+	background-color: #bcbbbb;
 	border: none;
 	margin-bottom: 25px;
+	margin-top: 0px;
 }
